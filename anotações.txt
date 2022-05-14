@@ -53,3 +53,22 @@
     5: 200
     
 6-Loops
+  for(início;condição (se for false ele para);final de cada ciclo) {
+  }
+  
+  let meuArrey = [1,92,0,199,200]
+  
+  for(let i = 0; i < 10; i++) {
+  0
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  console.log(i)
+  console.log(meuArrey[i])
+  }
