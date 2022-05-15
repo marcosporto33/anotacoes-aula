@@ -1,74 +1,76 @@
 #Aula 1
 
-1-Variáveis
-  var - 
-  let - 
-  const - 
-2-Tipos de dados
-  'String' - texto
+*1 Variáveis
+  var 
+  let
+  const
+  
+*2 Tipos de dados
+  String - texto
   Number - número
-  Boolean - boleano (true ou false)
+  Boolean - (true ou false)
   Undefined - indefinido 
-3-Operadores
- 3.1 Matemáticos
-  + - Soma
-  - - Subtração
-  / - Divisão
-  * - Multiplicação
-  % - Resto da divisão
-  = - Igual
-  a++ Recebe o valor dele  (a = a + 1)
-  // Procurar mais operadores
- 3.2 Comparações
-  > - maior
-  < - menor
-  >= - maior igual
-  <= - menor igual
-  == - igual
-  === - idêntivo (verifica valor e typeof)
-  != - Diferente
- 3.3 Lógico
-   && - E
-   || - Ou
-   ! - Diferente
-4-Condicionais
-  if - 
-  else - 
-  else if - 
-  switch - 
-5-Array é uma lista de dados
-  let meuArrey = [1,92,0,199,200]
-    0: 1
-    1: 92
-    3: 0
-    4: 299
-    5: 200
+  
+*3 Operadores
+  - 3.1 Matemáticos
+      + - Soma
+      - - Subtração
+      / - Divisão
+      * - Multiplicação
+      % - Resto da divisão
+      = - Igual
+      a++ Recebe o valor dele  (a = a + 1)
+      // Procurar mais operadores
     
-    // Pode incluir um Arrey dentro do Arrey já criado: 
+ - 3.2 Comparações
+      > - maior
+      < - menor
+      >= - maior igual
+      <= - menor igual
+      == - igual
+      === - idêntivo (verifica valor e typeof)
+      != - Diferente
+      
+ - 3.3 Lógico
+     && - E
+     || - Ou
+     ! - Diferente
+     
+*4 Condicionais
+      if
+      else
+      else if 
+      switch
+      
+*5 Array lista de dados
+  let meuArrey = [1,92,0,199,200]
+      0: 1
+      1: 92
+      3: 0
+      4: 299
+      5: 200
+    
+/ /Arrey dentro do Arrey
     meuArrey[1] = [1,2,3]
-    0: Arrey(3)
-    1: 92
-    3: 0
-    4: 299
-    5: 200
+      0: Arrey(3)
+      1: 92
+      3: 0
+      4: 299
+      5: 200
     
-6-Loops
-  for(início;condição (se for false ele para);final de cada ciclo) {
-  }
+*6 Loops
+  for(início;condição;final de cada ciclo)
   
   let meuArrey = [1,92,0,199,200]
   
-  for(let i = 0; i < 10; i++) {
-  0
-  1
-  2
-  3
-  4
-  5
-  6
-  7
-  8
-  9
-  console.log(i)
-  console.log(meuArrey[i])
-  }
+  for(let i = 0; i < 5; i++) {
+
+  console.log(i) =>> 0,1,2,3,4
+  console.log(meuArrey[i]) [1,92,0,199,200]
+}
+
+// Condição é o tamanho do Arreuy
+  for(let i = 0; i < meuArrey.length; i++) {
+}
+
+  
