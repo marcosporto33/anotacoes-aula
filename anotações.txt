@@ -13,15 +13,10 @@
   
 *3 Operadores
   - 3.1 Matemáticos
-      + - Soma
-      - - Subtração
-      / - Divisão
-      * - Multiplicação
       % - Resto da divisão
-      = - Igual
       a++ Recebe o valor dele  (a = a + 1)
-      // Procurar mais operadores
-    
+// Pesquisar por mais operadores  
+
  - 3.2 Comparações
       > - maior
       < - menor
